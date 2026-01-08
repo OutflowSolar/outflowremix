@@ -1,1 +1,1 @@
-# outflowremix
+I want to write a smart contract that connects to a chainlink functions. The smart contract will be written on Remix 1.5.1. The smart contract on remix will pull data from the chainlink and once the data is pull onto remix the data will be minted and tokenized.
