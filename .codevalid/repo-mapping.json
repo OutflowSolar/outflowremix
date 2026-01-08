@@ -1,0 +1,10 @@
+{
+  "1": {
+    "implementation": [],
+    "missing_implementations": [
+      "The smart contract must connect to Chainlink functions.",
+      "Data must be pulled from Chainlink.",
+      "Pulled data must be minted and tokenized."
+    ]
+  }
+}
