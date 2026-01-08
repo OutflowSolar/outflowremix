@@ -3,8 +3,10 @@
     "implementation": [],
     "missing_implementations": [
       "The smart contract must connect to Chainlink functions.",
-      "Data must be pulled from Chainlink.",
-      "Pulled data must be minted and tokenized."
+      "Data must be pulled from Chainlink every 1 minute.",
+      "Pulled data must be minted and tokenized.",
+      "Minted data must be stored in a CSV.",
+      "All data must be accepted; errors are ignored."
     ]
   }
 }
