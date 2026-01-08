@@ -3,15 +3,17 @@
     {
       "id": "1",
       "header": "Integrate and Tokenize Chainlink Data",
-      "description": "Enables the smart contract to connect to Chainlink functions, retrieve data, and mint/tokenize the retrieved data within the Remix 1.5.1 environment.",
+      "description": "Enables the smart contract to connect to Chainlink functions, retrieve data every 1 minute, mint and tokenize the retrieved data within the Remix 1.5.1 environment, and store the minted data in a CSV file.",
       "conditions": [
         "The smart contract must connect to Chainlink functions.",
-        "Data must be pulled from Chainlink.",
-        "Pulled data must be minted and tokenized."
+        "Data must be pulled from Chainlink every 1 minute.",
+        "Pulled data must be minted and tokenized.",
+        "Minted data must be stored in a CSV.",
+        "All data must be accepted; errors are ignored."
       ],
-      "change_status": "new"
+      "change_status": "updated"
     }
   ],
-  "last_updated": "2026-01-08T03:51:04.504434",
+  "last_updated": "2026-01-08T03:54:48.820524",
   "version": "1.0"
 }
